@@ -4,9 +4,9 @@ sys.path.append(os.getcwd())
 import time
 import torch
 import torch.optim as optim
-from pygcn.utils import load_data, set_seed, train, test
-from pygcn.models import AE_GNN
-from pygcn.setting import Setting
+from utils import load_data, set_seed, train, test
+from models import AE_GNN
+from setting import Setting
 
 
 def main(args):
@@ -38,6 +38,8 @@ def main(args):
     print(f"Time: {take_time:.2f}s, Max validation acc: {100 * maxacc:.2f}%, DGR: {dis_ratio:.4f}")
 
     # acc_test, loss_test = test(model, features, adj, idx_test, labels)
+
+
 
 if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
