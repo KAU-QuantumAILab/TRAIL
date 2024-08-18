@@ -8,7 +8,6 @@ from utils import load_data, set_seed, train, test
 from models import AE_GNN
 from setting import Setting
 
-
 def main(args):
     # load data
     adj, features, labels, idx_train, idx_val = load_data(args.dataset)

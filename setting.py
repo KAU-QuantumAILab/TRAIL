@@ -31,7 +31,7 @@ class Setting():
                             help= 'set the seed')
         parser.add_argument('--model', type=str, default = 'GCN',
                             help= 'graph model GCN/GraphSage/SGC')
-        parser.add_argument('--dataset', type=str, default = 'texas',
+        parser.add_argument('--dataset', type=str, default = 'Cora',
                             help= 'set the dataset')
 
         args = parser.parse_args()
