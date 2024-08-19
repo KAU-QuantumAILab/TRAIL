@@ -19,8 +19,8 @@ The specific information about our experimentation environment is written in req
 ## Example
 If you want to evaluate this code(e.g. Cora dataset, 128 layer) just asecute the code as below:  
 
-'''
+```
 python main.py --dataset Cora --layer 128 
-'''
+```
 
-The particulars of setting are written on 'setting.py'  
+The particulars of setting are written on `setting.py` 
