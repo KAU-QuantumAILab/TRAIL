@@ -1,8 +1,4 @@
 # AE-GNN
-
-It is strongly recommended that the Docker container be utilized, as the requisite environment has already been uploaded via the Nvidia platform.   
-https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pyg/tags  
-
 In order to execute the code on a local machine, it is necessary to install the Python library, which is described in below:  
 
 torch_geometric==2.5.3  
