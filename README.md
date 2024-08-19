@@ -23,4 +23,4 @@ If you want to evaluate this code(e.g. Cora dataset, 128 layer) just asecute the
 python main.py --dataset Cora --layer 128 
 ```
 
-The particulars of setting are written on `setting.py` 
+The particulars of setting are written on `setting.py`, and the specific hyperparameters of our method are already fixed with default.
