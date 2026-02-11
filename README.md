@@ -1,4 +1,4 @@
-# AE-GNN
+# TRAIL
 In order to execute the code on a local machine, it is necessary to install the Python library, which is described in below:  
 
 torch_geometric==2.5.3  
